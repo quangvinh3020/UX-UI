@@ -1,4 +1,4 @@
-# QuangVinh Gaming Portal 🎮
+
 
 Một giao diện cổng thông tin trò chơi (Gaming Portal) đẳng cấp mang phong cách Cyberpunk, được tối ưu hóa cho trải nghiệm người dùng (UX). Đây là dự án bài tập cho môn học **Trải nghiệm người dùng (UX)**.
 
@@ -34,6 +34,10 @@ Một giao diện cổng thông tin trò chơi (Gaming Portal) đẳng cấp man
 1. Clone thư mục dự án về máy.
 2. Đảm bảo cấu trúc thư mục hình ảnh (`img/`) đã đầy đủ các file ảnh cần thiết.
 3. Mở file `index.html` bằng bất kỳ trình duyệt hiện đại nào (Chrome, Edge, Firefox, Safari).
+Ảnh Demo:
+<img width="1898" height="988" alt="image" src="https://github.com/user-attachments/assets/5b292a77-78a3-4fa5-8d34-d9896b5ccf8f" />
+<img width="1900" height="941" alt="image" src="https://github.com/user-attachments/assets/39c67490-debf-487d-95ee-5998bcfb1020" />
+<img width="1912" height="940" alt="image" src="https://github.com/user-attachments/assets/c3bd5fd6-2485-4645-84d8-5abbef9efd32" />
 
 ---
 ### 🎓 Thông tin môn học
