@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXUS | Gaming Portal Cao Cấp</title>
+    <meta name="description"
+        content="Nexus Gaming Portal - Nơi hội tụ các siêu phẩm game với trải nghiệm thị giác đỉnh cao.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Outfit:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="scanlines"></div>
+    <div class="cursor-glow"></div>
+
+    <header>
+        <nav class="container">
+            <div class="logo">QuangVinh<span>_</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Trang Chủ</a></li>
+                <li><a href="#games">Trò Chơi</a></li>
+                <li><a href="#esports">eSports</a></li>
+                <li><a href="#shop" class="btn-neon">Cửa Hàng</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <span class="badge-glitch" data-text="BEYOND REALITY">BEYOND REALITY</span>
+                <h1 class="glitch-text" data-text="LEVEL UP YOUR">LEVEL UP YOUR <span>LEGACY.</span></h1>
+                <p>Khám phá kỷ nguyên mới của trò chơi kỹ thuật số. Hiệu năng đỉnh cao, đồ họa tuyệt mỹ và cộng đồng
+                    gaming lớn nhất thế giới.</p>
+                <div class="hero-btns">
+                    <a href="#games" class="btn-main">Khám Phá</a>
+                    <a href="#join" class="btn-outline">Gia Nhập Ngay</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="games" class="games-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>TRÒ CHƠI <span>PHỔ BIẾN</span></h2>
+                    <div class="header-line"></div>
+                </div>
+                <div class="games-grid">
+                    <div class="game-card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="/img/game-hanh-dong.jpg" alt="Neon Protocol">
+                                <div class="card-info">
+                                    <h3>NEON PROTOCOL</h3>
+                                    <span class="tag">Hành Động</span>
+                                </div>
+                            </div>
+                            <div class="card-back">
+                                <h3>NEON PROTOCOL</h3>
+                                <p>Sống sót trong thế giới Cyberpunk rực rỡ với những trận chiến khốc liệt.</p>
+                                <a href="#" class="btn-card">Chơi Ngay</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="game-card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="img/game-dua-xe-15.jpg" alt="Apex Racer">
+                                <div class="card-info">
+                                    <h3>APEX RACER</h3>
+                                    <span class="tag">Đua Xe</span>
+                                </div>
+                            </div>
+                            <div class="card-back">
+                                <h3>APEX RACER</h3>
+                                <p>Tốc độ kinh hoàng trên những cung đường tương lai đầy kịch tính.</p>
+                                <a href="#" class="btn-card">Chơi Ngay</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">QuangVinh<span>_</span></div>
+                    <p>Định nghĩa lại trải nghiệm gaming toàn cầu.</p>
+                </div>
+                <div class="footer-nav">
+                    <h4>QuangVinh</h4>
+                    <ul>
+                        <li><a href="#">Về chúng tôi</a></li>
+                        <li><a href="#">Hỗ trợ</a></li>
+                        <li><a href="#">Bảo mật</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>CỘNG ĐỒNG</h4>
+                    <div class="social-links">
+                        <div class="social-box"><span>FB</span></div>
+                        <div class="social-box"><span>TW</span></div>
+                        <div class="social-box"><span>DC</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy;2026 Đánh dấu môn học UX do thầy Nguyễn Thái Anh, thực hiện bởi Quang Vinh </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('mousemove', (e) => {
+            const glow = document.querySelector('.cursor-glow');
+            glow.style.left = e.pageX + 'px';
+            glow.style.top = e.pageY + 'px';
+        });
+    </script>
+</body>
+
+</html>
